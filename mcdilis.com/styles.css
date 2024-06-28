@@ -1,0 +1,224 @@
+/* color pallete
+red: #e41220
+white: #e5e4e3
+black: #131516
+dark gray: #313d3e
+light gray: #7a7b78
+*/
+
+/*WEBSITE*/
+
+/*fonts*/
+@font-face {
+    font-family: 'personaMenu';
+    src: url('data/Persona5MenuFontPrototype-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'personatext';
+    src: url('data/p5hatty-1.ttf');
+}
+
+
+#appImg2 img {
+    max-width: 300px; /* Maximum width of images */
+    max-height: 400px;
+    object-fit: cover; /* ensures the image covers the area while maintaining aspect ratio */
+}
+
+#appImg img {
+  max-width: 300px; /* Maximum width of images */
+  max-height: 400px;
+  object-fit: cover; /* ensures the image covers the area while maintaining aspect ratio */
+}
+
+#title {
+   background-color: #e41220;
+   display: flex;
+   color: #131516;
+   
+}
+
+#title img{
+  max-height: 300px;
+}
+
+#titleText {
+    
+    align-content: center;
+    line-height: 0%;
+    color: #e5e4e3;
+    
+}
+
+h1 {
+    font-family: 'personaMenu';
+    font-size: 700%;
+    text-align: center;
+    letter-spacing: 0.18cap;
+    margin: 0%;
+}
+
+h3 {
+    font-family: 'personatext';
+    font-size: 350%;
+    letter-spacing: 0.25cap;
+}
+
+#sTitle{
+    background-color: #131516;
+    color: #e5e4e3;
+}
+
+#Skills {
+    display: flex;
+    background-color: #7a7b78;
+    font-size: xx-large;
+    justify-content: center;
+    color: #e5e4e3;
+    text-align: justify;
+    
+}
+ 
+#Skills img{
+    
+    max-width: 250px; 
+    max-height: 250px;
+    align-content: center;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    font-family: personatext;
+}
+
+#projects {
+  background-color: #e41220;
+  margin-bottom: 0;
+}
+#projects h1,
+#appdev h3,
+#modelsT h3  {
+    margin: 0;
+}
+
+#appdev{
+  margin-top: 0;
+  background-color: #131516;
+  color: #E8EAED;
+  padding: 0 5%; 
+}
+
+#safetyGlasses {
+  background-color: #7a7b78;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+
+}
+
+#mtgCompanion {
+  background-color: #e41220;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%; 
+}
+
+#glassText {
+  text-align: center;
+}
+
+#safetyGlasses img {
+ margin-right: 20%;
+}
+
+#mtgText {
+  text-align: center;
+  color: #e5e4e3;
+}
+
+#uniGame{
+  background-color: #7a7b78;
+  display: flex;
+  padding: 0 5%; 
+}
+
+#uniGame h3{
+  margin: 1%;
+  font-size: xx-large;
+}
+
+#modelsT{
+  margin-top: 0;
+  background-color: #e41220;
+  color: #E8EAED;
+  padding: 0 5%; 
+}
+
+ /*3D MODELS */
+ /* styles.css */
+.model-viewer-large {
+  width: 600px;
+  height: 400px;
+}
+
+#models {
+  background-color: #E8EAED;
+  display: flex;
+  justify-content: center; /* Center the items horizontally */
+  align-items: center;     /* Center the items vertically */
+  gap: 20px;   
+}
+
+#grids {
+  display: flex;
+  background-color: #131516;
+  color: #e5e4e3;
+  justify-content: center;
+}
+
+#vidtitle {
+  writing-mode: vertical-rl; 
+  text-align: center;
+  transform: rotate(180deg); 
+  white-space: nowrap; 
+  font-size: small;
+}
+
+iframe {
+  width: 100%; 
+  max-width: 560px; 
+  height: auto; 
+  margin-bottom: 20px; 
+}
+
+topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: personatext;
+  justify-content: center;
+}
+
+
+.active {
+  background-color: #e41220;
+  color: #e5e4e3;
+  
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
